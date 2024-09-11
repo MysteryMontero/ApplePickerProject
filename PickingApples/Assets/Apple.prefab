@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 6294020691624814382}
   - component: {fileID: 6294020691624814383}
   - component: {fileID: 6294020691624814380}
-  m_Layer: 0
+  - component: {fileID: 4176289216114547055}
+  m_Layer: 7
   m_Name: Apple
   m_TagString: Apple
   m_Icon: {fileID: 0}
@@ -28,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6294020691624814381}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 7.18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6294020692352690770}
@@ -113,6 +114,18 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &4176289216114547055
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6294020691624814381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6433dcfb6a53c8c45aa6ae4a525383e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6294020692352690771
 GameObject:
   m_ObjectHideFlags: 0
@@ -125,7 +138,7 @@ GameObject:
   - component: {fileID: 6294020692352690783}
   - component: {fileID: 6294020692352690780}
   - component: {fileID: 6294020692352690781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Stem
   m_TagString: Untagged
   m_Icon: {fileID: 0}
