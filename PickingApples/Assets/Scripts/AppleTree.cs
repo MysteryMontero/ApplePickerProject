@@ -14,9 +14,6 @@ public class AppleTree : MonoBehaviour
     public float leftAndRightEdge = 10f;
     public float changeDirChance = 0.1f;
     public float appleDropDelay = 1f;
-    public float rotationSpeed = 30f; // Speed of rotation in degrees per second
-
-    private Rigidbody rb;
 
     // Start is called before the first frame update
     void Start()
